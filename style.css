@@ -93,5 +93,8 @@ img {
   .container {
     width: 300px;
   }
+  .image-circle {
+    object-fit: cover;
+  }
 }
 
