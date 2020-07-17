@@ -16,6 +16,7 @@ h1 {
 h2 {
   color: grey;
   font-family: 'Varela', sans-serif;
+  text-align: center;
 }
 
 h2:hover {
@@ -24,10 +25,16 @@ font-family: 'Varela', sans-serif;
 }
 
 a {
-  color: blue;
+  color: grey;
   text-decoration: none;
   font-weight: bold;
+  font-size: 40px;
 }
+
+a:hover {
+  color:white;
+  font-family: 'Varela', sans-serif;
+  }
 
 p {
   font-weight: 500;
@@ -48,6 +55,10 @@ img:hover {
 
 .list-inline {
   cursor: pointer;
+  display: inline-block;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .container {
@@ -90,6 +101,7 @@ img:hover {
 .btn-blue:hover {
   background-color: cadetblue;
 }
+
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
